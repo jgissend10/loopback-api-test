@@ -14,7 +14,7 @@
     ]
   },
   "User": {
-    "dataSource": "redis",
+    "dataSource": "redisDS",
     "public": false
   },
   "AccessToken": {
@@ -34,7 +34,7 @@
     "public": false
   },
   "user": {
-    "dataSource": "redis",
+    "dataSource": "redisDS",
     "public": true
   }
 }

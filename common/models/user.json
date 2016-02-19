@@ -5,9 +5,17 @@
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+    "email": {
+      "type": "string",
+      "index": true
+    }
+  },
   "validations": [],
   "relations": {},
   "acls": [],
-  "methods": {}
+  "methods": {},
+  "indexes": {
+  "email_index": {"email": 1}
+  }
 }

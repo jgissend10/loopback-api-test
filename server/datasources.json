@@ -11,18 +11,20 @@
   "sendgrid": {
     "name": "sendgrid",
     "connector": "mail",
-    "transports": [{
-         "type": "smtp",
-         "host": "smtp.sendgrid.net",
-         "secure": false,
-         "port": 587,
-         "tls": {
-           "rejectUnauthorized": false
-         },
-         "auth": {
-           "user": "",
-           "pass": ""
-         }
-       }]
+    "transports": [
+      {
+        "type": "smtp",
+        "host": "smtp.sendgrid.net",
+        "secure": false,
+        "port": 587,
+        "tls": {
+          "rejectUnauthorized": false
+        },
+        "auth": {
+          "user": "",
+          "pass": ""
+        }
+      }
+    ]
   }
 }

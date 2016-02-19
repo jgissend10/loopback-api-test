@@ -2,5 +2,10 @@
   "db": {
     "name": "db",
     "connector": "memory"
-  }
+  },
+  "redisDS": {
+    "name": "redisDS",
+    "connector": "redis",
+    "url": getenv('REDIS_URL')
+	}
 }
